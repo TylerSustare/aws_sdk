@@ -1,6 +1,6 @@
 import 'package:aws_sdk/aws_sdk.dart';
 
 void main() {
-  var awesome = Awesome();
-  print('awesome: ${awesome.isAwesome}');
+  var aws = AWS();
+  print('AWS services are available: ${aws.isAvailable}');
 }

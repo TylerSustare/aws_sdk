@@ -8,10 +8,10 @@ Created from templates made available by Stagehand under a BSD-style
 A simple usage example:
 
 ```dart
-import 'package:simple/simple.dart';
+import 'package:aws_sdk/aws_sdk.dart';
 
 main() {
-  var awesome = new Awesome();
+  var aws = new Awesome();
 }
 ```
 

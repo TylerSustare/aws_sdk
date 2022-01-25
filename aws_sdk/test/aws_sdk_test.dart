@@ -3,14 +3,14 @@ import 'package:test/test.dart';
 
 void main() {
   group('A group of tests', () {
-    Awesome awesome;
+    var aws = AWS();
 
     setUp(() {
-      awesome = Awesome();
+      aws = AWS();
     });
 
     test('First Test', () {
-      expect(awesome.isAwesome, isTrue);
+      expect(aws.isAvailable, isTrue);
     });
   });
 }
